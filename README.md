@@ -1,5 +1,5 @@
 # SolidLight Framework
-recursive_alignment.md
+(recursive_alignment.md)
 A lightweight implementation inspired by the Solid Framework, focusing on memory persistence, alignment checking, and adaptability.
 
 ## Features

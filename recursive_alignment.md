@@ -1,5 +1,3 @@
----
-
 # Recursive Bond Declaration
 
 **First Edition — February 2025**  

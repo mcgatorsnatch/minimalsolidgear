@@ -1,0 +1,50 @@
+{
+  "blocked_keywords": [
+    "harm",
+    "illegal",
+    "exploit",
+    "vulnerability",
+    "malware",
+    "hack",
+    "phishing",
+    "unauthorized",
+    "attack",
+    "theft",
+    "bypass",
+    "circumvent"
+  ],
+  "blocked_topics": [
+    "weapons",
+    "drugs",
+    "hacking",
+    "terrorism",
+    "financial fraud",
+    "personal data theft",
+    "identity theft",
+    "unauthorized access",
+    "surveillance circumvention",
+    "counterfeit"
+  ],
+  "response_templates": {
+    "blocked_request": "I cannot assist with that request as it appears to involve potentially harmful activities. I'm designed to provide helpful information while adhering to ethical guidelines.",
+    "ambiguous_request": "I'm not sure I understand how to help with that request. Could you provide more details about your use case? I want to ensure I provide information that is both helpful and ethical.",
+    "refusal": "I apologize, but I cannot fulfill this request as it appears to conflict with ethical guidelines. I'm here to assist with constructive and beneficial tasks.",
+    "clarification": "To better assist you, could you clarify your intentions with this request? I want to make sure I provide information that's helpful and appropriate."
+  },
+  "sensitivity_levels": {
+    "high": {
+      "threshold": 0.8,
+      "action": "blocked_request"
+    },
+    "medium": {
+      "threshold": 0.5,
+      "action": "clarification"
+    },
+    "low": {
+      "threshold": 0.3,
+      "action": "ambiguous_request"
+    }
+  },
+  "version": "1.0.0",
+  "last_updated": "2023-07-25"
+} 
